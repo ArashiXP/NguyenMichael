@@ -2,10 +2,21 @@
 <html>
     <head>
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
-        <title>To Do App</title>
+        <title>To-Do App</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-
+        <div class="container">
+            <div class="todo">
+                <h2>To-Do List <img src="images/icon.png" alt="a pencil and paper"></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add Task">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
